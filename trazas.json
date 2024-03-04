@@ -1,0 +1,227 @@
+{
+    "items": [
+        {
+            "itemId": "1",
+            "locationId": "4488b1c2445221da983e5688"
+        },
+        {
+            "itemId": "2",
+            "locationId": "cfa84e84649493f068b2cdaf"
+        },
+        {
+            "itemId": "3",
+            "locationId": "204d0aeb4d7e970e7c666ad3"
+        },
+        {
+            "itemId": "4",
+            "locationId": "204d0aeb4d7e970e7c666ad3"
+        },
+        {
+            "itemId": "5",
+            "locationId": "204d0aeb4d7e970e7c666ad3"
+        },
+        {
+            "itemId": "6",
+            "locationId": "69461f46664ca363730911c4"
+        },
+        {
+            "itemId": "7",
+            "locationId": "69461f46664ca363730911c4"
+        },
+        {
+            "itemId": "8",
+            "locationId": "69461f46664ca363730911c4"
+        },
+        {
+            "itemId": "9",
+            "locationId": "d4b97da1881022f6352d2c1e"
+        },
+        {
+            "itemId": "10",
+            "locationId": "acd92dbe190e5d2670697605"
+        },
+        {
+            "itemId": "11",
+            "locationId": "acd92dbe190e5d2670697605"
+        },
+        {
+            "itemId": "12",
+            "locationId": "acd92dbe190e5d2670697605"
+        },
+        {
+            "itemId": "13",
+            "locationId": "3a84dbab40843b460e485d60"
+        },
+        {
+            "itemId": "14",
+            "locationId": "e5832a3b51d18b51b3a1f237"
+        },
+        {
+            "itemId": "15",
+            "locationId": "2a50062d19348398aa449b48"
+        },
+        {
+            "itemId": "16",
+            "locationId": "2a50062d19348398aa449b48"
+        },
+        {
+            "itemId": "17",
+            "locationId": "65f4277300bdbec680d807d0"
+        },
+        {
+            "itemId": "18",
+            "locationId": "42bc3b3fe6e27ddbd3458498"
+        },
+        {
+            "itemId": "19",
+            "locationId": "42bc3b3fe6e27ddbd3458498"
+        },
+        {
+            "itemId": "20",
+            "locationId": "5a06b2fecd972b07b699c60a"
+        }
+    ],
+    "simulationId": "d3c97cb5-67ac-4983-a538-52ea9dd3223e",
+    "trucks": [
+        {
+            "items": [
+                "18",
+                "19"
+            ],
+            "route": [
+                {
+                    "destination": "42bc3b3fe6e27ddbd3458498",
+                    "duration": 468,
+                    "origin": "ce6feed06bc1a9e5aff95f04"
+                },
+                {
+                    "destination": "ce6feed06bc1a9e5aff95f04",
+                    "duration": 410,
+                    "origin": "42bc3b3fe6e27ddbd3458498"
+                }
+            ],
+            "truck_id": "5534TPH"
+        },
+        {
+            "items": [
+                "10",
+                "11",
+                "12",
+                "15",
+                "16",
+                "9"
+            ],
+            "route": [
+                {
+                    "destination": "acd92dbe190e5d2670697605",
+                    "duration": 1096,
+                    "origin": "ce6feed06bc1a9e5aff95f04"
+                },
+                {
+                    "destination": "2a50062d19348398aa449b48",
+                    "duration": 885,
+                    "origin": "acd92dbe190e5d2670697605"
+                },
+                {
+                    "destination": "d4b97da1881022f6352d2c1e",
+                    "duration": 339,
+                    "origin": "2a50062d19348398aa449b48"
+                },
+                {
+                    "destination": "ce6feed06bc1a9e5aff95f04",
+                    "duration": 455,
+                    "origin": "d4b97da1881022f6352d2c1e"
+                }
+            ],
+            "truck_id": "3953RLD"
+        },
+        {
+            "items": [
+                "3",
+                "4",
+                "5"
+            ],
+            "route": [
+                {
+                    "destination": "204d0aeb4d7e970e7c666ad3",
+                    "duration": 1392,
+                    "origin": "ce6feed06bc1a9e5aff95f04"
+                },
+                {
+                    "destination": "ce6feed06bc1a9e5aff95f04",
+                    "duration": 1462,
+                    "origin": "204d0aeb4d7e970e7c666ad3"
+                }
+            ],
+            "truck_id": "9593DXM"
+        },
+        {
+            "items": [
+                "17",
+                "20",
+                "6",
+                "7",
+                "8"
+            ],
+            "route": [
+                {
+                    "destination": "65f4277300bdbec680d807d0",
+                    "duration": 408,
+                    "origin": "ce6feed06bc1a9e5aff95f04"
+                },
+                {
+                    "destination": "5a06b2fecd972b07b699c60a",
+                    "duration": 896,
+                    "origin": "65f4277300bdbec680d807d0"
+                },
+                {
+                    "destination": "69461f46664ca363730911c4",
+                    "duration": 383,
+                    "origin": "5a06b2fecd972b07b699c60a"
+                },
+                {
+                    "destination": "ce6feed06bc1a9e5aff95f04",
+                    "duration": 1085,
+                    "origin": "69461f46664ca363730911c4"
+                }
+            ],
+            "truck_id": "6965XLY"
+        },
+        {
+            "items": [
+                "2",
+                "14",
+                "13",
+                "1"
+            ],
+            "route": [
+                {
+                    "destination": "cfa84e84649493f068b2cdaf",
+                    "duration": 858,
+                    "origin": "ce6feed06bc1a9e5aff95f04"
+                },
+                {
+                    "destination": "e5832a3b51d18b51b3a1f237",
+                    "duration": 483,
+                    "origin": "cfa84e84649493f068b2cdaf"
+                },
+                {
+                    "destination": "3a84dbab40843b460e485d60",
+                    "duration": 536,
+                    "origin": "e5832a3b51d18b51b3a1f237"
+                },
+                {
+                    "destination": "4488b1c2445221da983e5688",
+                    "duration": 436,
+                    "origin": "3a84dbab40843b460e485d60"
+                },
+                {
+                    "destination": "ce6feed06bc1a9e5aff95f04",
+                    "duration": 499,
+                    "origin": "4488b1c2445221da983e5688"
+                }
+            ],
+            "truck_id": "0013DYS"
+        }
+    ]
+}

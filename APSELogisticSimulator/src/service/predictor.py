@@ -6,14 +6,16 @@ import json
 app = Flask(__name__)
 
 # Load the trained scikit-learn models stored in pickle format
-with open('./data/model_preparation/travelModel.pkl', 'rb') as f:
+with open('../../data/model_preparation/travelModel.pkl', 'rb') as f:
     modelo_tiempo_viaje = pickle.load(f)
 
-with open('./data/model_preparation/deliveryModel.pkl', 'rb') as f:
+with open('../../data/model_preparation/deliveryModel.pkl', 'rb') as f:
     modelo_tiempo_entrega = pickle.load(f)
 
-with open('./data/model_preparation/le.pkl', 'rb') as f:
+with open('../../data/model_preparation/le.pkl', 'rb') as f:
     labelEncoder = pickle.load(f)
+
+
 
 
 

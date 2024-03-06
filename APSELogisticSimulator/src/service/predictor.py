@@ -1,3 +1,4 @@
+#Import all the modules we are going to use.
 import pickle
 from flask import Flask, jsonify, request
 import numpy as np

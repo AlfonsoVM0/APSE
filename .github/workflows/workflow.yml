@@ -21,3 +21,4 @@ jobs:
         context: .
         push: true
         tags: ghcr.io/alfonsovm0/apse34_predict:latest
+        

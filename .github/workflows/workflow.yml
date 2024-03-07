@@ -21,5 +21,3 @@ jobs:
         context: .
         push: true
         tags: ghcr.io/AlfonsoVM0/apse34_predict:latest
-
-#Este es el archivo que se encarga de publicar la imagen en el GHCR

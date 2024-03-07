@@ -12,7 +12,7 @@ jobs:
  uses: docker/login-action@v2
  with:
  registry: ghcr.io
- username: "AlfonsoVM0"
+ username: "<<USERNAME>>"
  password: ${{ secrets.PAT }}
  -
  name: Build and push
@@ -20,4 +20,4 @@ jobs:
  with:
  context: .
  push: true
- tags: ghcr.io/AlfonsoVM0/log_predict:latest
+ tags: ghcr.io/<<USERNAME>>/log_predict:latest

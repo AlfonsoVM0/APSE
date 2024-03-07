@@ -20,4 +20,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: ghcr.io/AlfonsoVM0/apse34_predict:latest
+        tags: ghcr.io/alfonsovm0/apse34_predict:latest
